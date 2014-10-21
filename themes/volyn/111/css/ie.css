@@ -1,0 +1,15 @@
+
+.class { behavior:url(js/PIE.htc); position:absolute;}
+
+.camera_wrap .camera_pag .camera_pag_ul li > span, 
+.link_quote, .btn, .search_form, .qoutes .number{ behavior:url(js/PIE.htc); position: relative;}
+
+
+
+#form .error-message,
+#form .empty-message{
+filter:alpha(opacity=0);
+}
+
+#form .invalid .error-message, #form .empty .empty-message{
+filter:alpha(opacity=100); }

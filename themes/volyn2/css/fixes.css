@@ -1,0 +1,178 @@
+ .multi-lang {
+    /*right: 100px;
+    top: 9px;*/
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 40px;
+    height: 12px;
+    padding-right: 0px;
+    margin-top: 1.2em;
+     margin-left: 0.4em;
+     z-index: 1000000;
+     float: right;
+     position: relative;
+ }
+ .multi-lang:hover > ul {
+    visibility: visible;
+    opacity: 1; }
+ .multi-lang > ul {
+     float:right;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    width: 31px;
+    position: absolute;
+    /*top: 1.8em;*/
+    -o-transition: all 0.2s ease-in 0.1s;
+    -moz-transition: all 0.2s ease-in 0.1s;
+    -webkit-transition: all 0.2s ease-in 0.1s;
+    -ms-transition: all 0.2s ease-in 0.1s;
+    transition: all 0.2s ease-in 0.1s;
+    /*left: 0.4em;*/
+    padding: 12px 0 0 0; }
+ .multi-lang > ul li {
+    display: block;
+    width: 100%;
+    padding: 9px 0; }
+ .multi-lang > ul li a img {
+    display: block; }
+ .multi-lang .icons-caret {
+    position: absolute;
+    right: 7px;
+    top: 3px;
+    display: block; }
+ .multi-lang a {
+    text-decoration: none;
+    padding: 0 6px;
+    width: 100%;
+    height: 12px;
+    display: block; }
+ .multi-lang a img {
+    height: 12px;
+    display: block; }
+
+ a{
+     border: none;
+     color:#31C231;
+ }
+
+body, input, textarea{
+     font-size: 10pt;
+ }
+
+ body, input, textarea{
+     font-family: Verdana, arial, helvetica, sans-serif;
+ }
+
+ #header h1{
+     margin-left: 24px;
+ }
+ #logo{
+     margin-left:3px;
+     margin-right: 3px;
+     margin-top: 3px;
+ }
+
+ #navPanel,#header {
+     background: #008500;
+ }
+
+ #header nav > ul > li.active a:not(.button) {
+     background-color: rgba(220, 220, 220, 0.25);
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+     color: #008500;
+     font-weight: 300;
+     line-height: 1em;
+     margin: 0 0 0.5em 0;
+ }
+
+ .box a:hover{
+     text-decoration: underline;
+ }
+ .dropotron {
+     width: 14em;
+ }
+
+ input[type="submit"],
+ input[type="reset"],
+ input[type="button"],
+ .button {
+
+     background-color: #008500;
+
+ }
+
+ input[type="submit"]:hover,
+ input[type="reset"]:hover,
+ input[type="button"]:hover,
+ .button:hover {
+     background-color: #31C231;
+ }
+
+ input[type="submit"]:active,
+ input[type="reset"]:active,
+ input[type="button"]:active,
+ .button:active {
+     background-color: #31C231;
+ }
+
+ input[type="text"]:focus,
+ input[type="password"]:focus,
+ input[type="email"]:focus,
+ select:focus,
+ textarea:focus {
+     border-color: #31C231;
+     box-shadow: 0 0 0 2px #31C231;
+ }
+ strong, b {
+     color: #646464;
+     font-weight: 900;
+ }
+
+ .dropotron li.active > a, .dropotron li.active > span, .dropotron li:hover > a, .dropotron li:hover > span {
+     background: #31C231;
+     color: #ffffff;
+ }
+
+ #banner  {
+     font-weight: 900;
+ }
+ #banner p {
+     font-weight: 900;
+ }
+
+ #header nav > ul > li.active a:not(.button) {
+     background-color: rgba(255, 255, 255, 0.2);
+ }
+
+ #header nav {
+     height: inherit;
+     line-height: inherit;
+     position: absolute;
+     right: 42px;
+     top: 0;
+     vertical-align: middle;
+ }
+ #banner .button:hover {
+     background-color: rgba(255, 255, 255, 0.3);
+     color: #fff !important;
+ }
+ #header .nav ul li a:hover {
+     background-color: rgba(255, 255, 255, 0.2);
+ }
+ p {
+     margin: 0 0 1em 0;
+ }
+.a_inherit{
+    width: inherit;
+}
+.actions a:hover{
+    text-decoration: none;
+}
+ #header h1 {
+     color: #ddd;
+ }

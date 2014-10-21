@@ -1,0 +1,1 @@
+<?php $this->position('patent_page');?>

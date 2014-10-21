@@ -1,0 +1,28 @@
+div.content {
+    width: 250px;
+    margin: 160px auto 0;
+    background-color: #f5f9fa;
+    border: 1px solid #6cbeda;
+    border-radius: 5px;
+}
+
+div.content h1 {
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFFFFF), to(#e9f1f4));
+    background: -webkit-linear-gradient(#FFFFFF, #e9f1f4);
+    background: -moz-linear-gradient(#FFFFFF, #e9f1f4);
+    background: -ms-linear-gradient(#FFFFFF, #e9f1f4);
+    background: -o-linear-gradient(#FFFFFF, #e9f1f4);
+    background: linear-gradient(#FFFFFF, #e9f1f4);
+    border-bottom: 1px solid #b5d0db;
+    color: #327d92;
+    line-height: 70px;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 32px;
+    font-weight: normal;
+    border-radius: 5px 5px 0 0;
+}
+
+div.content div.form {
+    padding: 15px 13px 0 17px;
+}
